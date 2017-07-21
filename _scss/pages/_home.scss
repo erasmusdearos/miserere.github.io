@@ -1,0 +1,30 @@
+body {
+  background: url(/img/miserere-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.splash  {
+  min-height: 100vh;
+}
+
+h1 {
+  color: $brand-primary;
+  font-size: 6rem;
+  letter-spacing: .8rem;
+}
+
+h4 {
+  color: $brand-primary;
+  font-style: italic;
+}
+
+.btn {
+  border-color: $brand-primary;
+  color: $brand-primary;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $brand-primary;
+    color: black;
+  }
+}
