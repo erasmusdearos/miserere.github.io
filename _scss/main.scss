@@ -14,10 +14,13 @@
 @import "sections/footer";
 @import "sections/nav";
 
-// For developement
-// body * {
-//   background: rgba(10, 20, 30, 0.1);
-// }
+// Pages
+@import "pages/home";
+
+For developement
+body * {
+  background: rgba(10, 20, 30, 0.1);
+}
 
 .no-gutter > [class*='col-'] {
     padding-right:0;
