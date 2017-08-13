@@ -17,7 +17,7 @@ $brand-warning:             #f0ad4e;
 $brand-danger:              #d9534f;
 
 // Typography
-$base-font-family:            "Mark OT", "Montserrat", "Open Sans", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+$base-font-family:            Garamond, Georgia, 'Times New Roman', serif;
 $headings-font-family:        "Playfair Display", "Georgia", "Times New Roman", "Garamond", serif;
 
 // Buttons
@@ -32,6 +32,7 @@ $border-radius-sm:       0 !default;
 
 // Non-Bootstrap variables
 $simple-font-family:          -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+$sans-serif-family:           "Mark OT", "Montserrat", "Open Sans", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 
 $facebook_color:              hsla(222, 47%, 40%, 1);     // #365397
 $twitter_color:               hsla(198, 100%, 47%, 1);    // #00a9f1

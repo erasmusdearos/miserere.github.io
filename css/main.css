@@ -6134,7 +6134,7 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important; }
 
 body {
-  font-family: "Mark OT", "Montserrat", "Open Sans", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
+  font-family: Garamond, Georgia, "Times New Roman", serif; }
 
 body {
   font-size: 16px; }
@@ -6153,18 +6153,6 @@ body {
 
 h1, h2, h3, h4 {
   text-transform: uppercase; }
-
-.pull-quote {
-  font-family: "Mark OT", "Montserrat", "Open Sans", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  color: #FFCF00;
-  font-size: 1.2rem;
-  font-weight: 300; }
-  .pull-quote__name {
-    font-size: .9rem;
-    color: #FFCF00;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Playfair Display", "Georgia", "Times New Roman", "Garamond", serif; }
 
 .btn {
   text-transform: uppercase;
@@ -6397,13 +6385,20 @@ h4 {
   padding-bottom: 56.25%;
   position: relative;
   height: 0; }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
 
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute; }
+.synopsis {
+  background-color: #FFCF00;
+  text-align: left; }
+
+.box-title {
+  text-align: left;
+  font-family: "Mark OT", "Montserrat", "Open Sans", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
