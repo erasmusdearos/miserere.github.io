@@ -13,14 +13,15 @@
 // Global layout template
 @import "sections/footer";
 @import "sections/nav";
+@import "sections/border";
 
 // Pages
 @import "pages/home";
 
 // For developement
-body * {
-  background: rgba(10, 20, 30, 0.1);
-}
+// body * {
+//   background: rgba(10, 20, 30, 0.1);
+// }
 
 .no-gutter > [class*='col-'] {
     padding-right:0;
