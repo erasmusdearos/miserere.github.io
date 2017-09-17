@@ -9,7 +9,6 @@ body {
 
 h1 {
   color: $brand-primary;
-  font-size: 6rem;
   letter-spacing: .8rem;
 }
 
@@ -30,8 +29,15 @@ h4 {
 }
 
 .floating-cutout {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 90;
+  display: none;
+}
+
+@include media-breakpoint-up(md)  {
+  .floating-cutout {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+  }
 }

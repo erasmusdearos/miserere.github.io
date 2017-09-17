@@ -6151,8 +6151,12 @@ body {
   body {
     font-size: 15px; } }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   text-transform: uppercase; }
+
+@media (max-width: 991px) {
+  h1.display-1 {
+    font-size: 3.5rem; } }
 
 .btn {
   text-transform: uppercase;
@@ -6332,23 +6336,21 @@ footer {
     opacity: 1;
     left: 0; } }
 
-body:before, body:after {
-  content: "";
-  position: fixed;
-  background: #FFCF00;
-  left: 0;
-  right: 0;
-  height: 10px; }
-
-body:before {
-  top: 0; }
-
-body:after {
-  bottom: 0; }
-
-body {
-  border-left: 10px solid #FFCF00;
-  border-right: 10px solid #FFCF00; }
+@media (min-width: 768px) {
+  body {
+    border-left: 10px solid #FFCF00;
+    border-right: 10px solid #FFCF00; }
+    body:before, body:after {
+      content: "";
+      position: fixed;
+      background: #FFCF00;
+      left: 0;
+      right: 0;
+      height: 10px; }
+    body:before {
+      top: 0; }
+    body:after {
+      bottom: 0; } }
 
 body {
   background: url(/img/miserere-bg.jpg) no-repeat center center fixed;
@@ -6359,7 +6361,6 @@ body {
 
 h1 {
   color: #FFCF00;
-  font-size: 6rem;
   letter-spacing: .8rem; }
 
 h4 {
@@ -6375,10 +6376,15 @@ h4 {
     color: black; }
 
 .floating-cutout {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 90; }
+  display: none; }
+
+@media (min-width: 768px) {
+  .floating-cutout {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 90; } }
 
 .video-responsive {
   overflow: hidden;
